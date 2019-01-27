@@ -1,0 +1,7 @@
+bgsview-venv
+*.pyc
+.DS_Store
+.env
+*.ipynb
+.ipynb_checkpoints
+__pycache__/
