@@ -5,3 +5,4 @@ bgsview-venv
 *.ipynb
 .ipynb_checkpoints
 __pycache__/
+talk-slides 
