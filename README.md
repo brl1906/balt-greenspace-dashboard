@@ -5,9 +5,9 @@ Dashboard for the Baltimore Green Space non profit organization for facilitating
 ## Use
 The dashboard can be accessed [**here**](https://bgs-dashboard.herokuapp.com/).  It allows staff or board members who have the structured reports and files to upload each file to view an interactive chart to communicate status in each key area: fundraising, pledge activity, budget, grant activity and strategic plan activity.
 
-To ensure consistency and continuity in reporting and data collection and management, files for which column headers have been altered or new tracking statuses have been added will not render in the dashboard.
+To ensure consistency and continuity in reporting and data collection and management, files for which column headers have been altered or new tracking statuses have been added will not render in the dashboard. For example, the files should be .xlsx files and the first sheet in the strategic plan workbook should be the sheet starting with the name 'All Items'.
 
-Users can upload reports from any period or quarter and can save individual charts as png files for use in reports, presentations or broader distribution.
+Users can upload reports from any period or month and by using the camera button on each chart can save individual charts as png files for use in separate reports, presentations or for broader distribution.
 
 
 ## Prerequisites
