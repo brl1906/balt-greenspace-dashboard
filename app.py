@@ -19,7 +19,7 @@ external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 server = Flask(__name__)
 app = dash.Dash(__name__, server=server)
 app.css.append_css({'external_url': external_stylesheets})
-app.title('BGSView')
+app.title = 'BGSView'
 app.layout = html.Div([
     # page layout container
     html.Div([
