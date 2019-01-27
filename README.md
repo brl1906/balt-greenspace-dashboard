@@ -1,5 +1,5 @@
 # BGSView
-Dashboard for the Baltimore Green Space non profit organization for facilitating key discussion points and metrics in regular board meetings, planning and strategy sessions.
+Dashboard for the [**Baltimore Green Space**](http://baltimoregreenspace.org) non profit organization for facilitating key discussion points and metrics in regular board meetings, planning and strategy sessions.
 
 
 ## Use
@@ -11,7 +11,7 @@ Users can upload reports from any period or month and by using the camera button
 
 
 ## Prerequisites
-Outside of having access to the organization's data, there are no package installations or system requirements associated with using the dashboard.  A working brower and internet connection will do the trick.
+Outside of having access to the organization's data, there are no package installations or system requirements associated with using the dashboard.  A working browser and internet connection will do the trick.
 
 
 To-do
