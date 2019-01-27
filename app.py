@@ -1,21 +1,26 @@
 import base64
 import datetime
 import io
+import warnings
 
+import charts # custom module
 import dash
 from dash.dependencies import Input, Output, State
 import dash_core_components as dcc
 import dash_html_components as html
-
+from flask import Flask
 import pandas as pd
 import plotly.graph_objs as go
 
-import charts
+warnings.filterwarnings('ignore')
 
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
-app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
-app.css.append_css({'external_url': 'https://cdn.rawgit.com/plotly/dash-app-stylesheets/2d266c578d2a6e8850ebce48fdb52759b2aef506/stylesheet-oil-and-gas.css'})
+#app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
+#app.css.append_css({'external_url': 'https://cdn.rawgit.com/plotly/dash-app-stylesheets/2d266c578d2a6e8850ebce48fdb52759b2aef506/stylesheet-oil-and-gas.css'})
+server = Flask(__name__)
+app = dash.Dash(__name__, server=server)
+app.css.append_css({'external_url': external_stylesheets})
 app.layout = html.Div([
     # page layout container
     html.Div([
